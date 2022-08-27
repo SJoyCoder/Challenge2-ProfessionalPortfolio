@@ -1,12 +1,21 @@
-* {
+:root {
+    --main-bg: white;
+    --secondary-color: rgba(52, 214, 203, 0.475); 
+    --text-color: black;
+}
+
+body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: darkblue;
+    color: var(--text-color);
 }
 
 header {
-    background-color: pink;
+    background-color: var(--secondary-color);
     margin: 0;
     padding: 20px;
+    display: block;
+    border-radius: 15px;
+    display: block;
 }
 
 h1 {
@@ -17,9 +26,9 @@ nav ul {
     display: flex;
     justify-content: right;
     list-style-type: none;
-    background-color: white;
-    margin: 0px;
-    
+    background-color: var(--main-bg);
+    margin: 0px;  
+    border-radius: 50px;
 }
 
 nav a {
@@ -27,4 +36,34 @@ nav a {
     text-decoration: none;
     padding: 10px;
     display: block;
+    justify-content: space-between;
+    color: var(--text-color);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+img {
+    width: 25%;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+article {
+    border: 5px var(--secondary-color) dotted;
+    background-color: var(--main-bg);
+    width: 50%;
+    margin: 15px;
+}
+
+article h2 {
+    padding: 10px;
+}
+
+article p {
+    padding: 10px;
 }
