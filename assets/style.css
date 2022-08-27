@@ -41,6 +41,10 @@ nav a {
     color: var(--text-color);
 }
 
+#about-me {
+    margin-top: 75px;
+}
+
 #profile-picture {
     width: 15%;
     margin: 20px;
@@ -71,6 +75,7 @@ article div {
 
 #projects {
     margin-top: 100px;
+    margin-left: 25px;
 }
 
 #projects img {
@@ -88,10 +93,16 @@ ul {
 
 #resume {
     margin-top: 75px;
+    margin-left: 25px;
 }
 
 #resume a {
     color: black;
+}
+
+hr {
+    border-color: var(--secondary-color);
+    border-width: 3px;
 }
 
 #contact {
