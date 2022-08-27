@@ -130,6 +130,7 @@ ul {
 
 #resume a {
     color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 hr {
@@ -147,7 +148,19 @@ hr {
     margin-bottom: 50px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 75%;
+    }
+
+    h2 {
+        font-size: 75%;
+    }
+
+    h3 {
+        font-size: 75%;
+    }
+
     nav a {
         font-size: 75%;
     }
@@ -159,5 +172,6 @@ hr {
     #projects {
         flex-flow: column wrap;
         width: 100%;
+        margin: auto;
     }
 }
