@@ -7,6 +7,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--text-color);
+    font-size: 20px;
 }
 
 header {
@@ -19,8 +20,8 @@ header {
 }
 
 h1 {
-    font-size: 50px;
-    font-family: fantasy;
+    font-size: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav ul {
@@ -47,6 +48,8 @@ nav a {
 
 #about-me {
     margin-top: 75px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 #profile-picture {
@@ -62,8 +65,6 @@ article {
     width: 75%;
     margin: auto;
     margin-top: 30px;
-    display: flex;
-    flex-flow: row wrap;
 }
 
 h2 {
@@ -82,13 +83,26 @@ article div {
     margin-left: 25px;
 }
 
-#projects img {
-    width: 25%;
+#projects ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#projects li {
+    max-width: 25%;
+    height: auto;
+    padding: 20px;
 }
 
 #projects div {
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     padding: 15px;
+}
+
+#projects img {
+    max-width: 100%;
+    height: auto;
 }
 
 ul {
@@ -110,9 +124,22 @@ hr {
 }
 
 #contact {
+    display: flex;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     width: 50%;
     margin-top: 75px;
+    margin-bottom: 50px;
 }
 
+@media screen and (max-width: 800px) {
+    #contact {
+        width: 75%;
+    }
+
+    #projects {
+        flex-flow: column wrap;
+        width: 100%;
+    }
+}
