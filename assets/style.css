@@ -86,7 +86,18 @@ ul {
     list-style-type: none;
 }
 
+#resume {
+    margin-top: 75px;
+}
+
+#resume a {
+    color: black;
+}
+
 #contact {
     align-items: center;
-    text-align: justify;
+    justify-content: center;
+    width: 50%;
+    margin-top: 75px;
 }
+
