@@ -101,6 +101,14 @@ article div {
     padding: 50px;
 }
 
+#showcase-project:hover {
+    box-shadow: 0px 0px 10px var(--secondary-color);
+}
+
+.smaller-projects:hover {
+    box-shadow: 0px 0px 10px var(--secondary-color);
+}
+
 #projects div {
     flex-flow: column wrap;
     padding: 15px;
