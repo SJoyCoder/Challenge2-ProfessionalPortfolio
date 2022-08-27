@@ -41,10 +41,6 @@ nav a {
     color: var(--text-color);
 }
 
-main{
-  
-}
-
 #profile-picture {
     width: 15%;
     margin: 20px;
@@ -63,7 +59,6 @@ article {
 }
 
 h2 {
-    padding: 10px;
     font-size: 200%;
     color: rgb(51, 199, 190);
     
@@ -75,5 +70,14 @@ article div {
 }
 
 #projects {
-    margin-top: 80px;
+    margin-top: 100px;
+}
+
+#projects img {
+    width: 25%;
+}
+
+#projects div {
+    flex-flow: row wrap;
+    padding: 15px;
 }
