@@ -82,6 +82,11 @@ article div {
     padding: 15px;
 }
 
-#projects ul {
+ul {
     list-style-type: none;
+}
+
+#contact {
+    align-items: center;
+    text-align: justify;
 }
