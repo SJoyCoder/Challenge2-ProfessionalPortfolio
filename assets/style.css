@@ -89,10 +89,16 @@ article div {
     justify-content: space-around;
 }
 
-#projects li {
+.smaller-projects {
     max-width: 25%;
     height: auto;
-    padding: 20px;
+    padding: 50px;
+}
+
+#showcase-project {
+    width: 75%;
+    height: auto;
+    padding: 50px;
 }
 
 #projects div {
