@@ -81,3 +81,7 @@ article div {
     flex-flow: row wrap;
     padding: 15px;
 }
+
+#projects ul {
+    list-style-type: none;
+}
