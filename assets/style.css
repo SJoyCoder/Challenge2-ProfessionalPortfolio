@@ -1,0 +1,30 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+
+header {
+    background-color: pink;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    background-color: white;
+    margin: 0px;
+    
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
