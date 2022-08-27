@@ -133,7 +133,11 @@ hr {
     margin-bottom: 50px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+    nav a {
+        font-size: 75%;
+    }
+
     #contact {
         width: 75%;
     }
