@@ -19,7 +19,7 @@ header {
     margin: 0;
     padding: 10px;
     display: block;
-    border: 2px var(--secondary-color) solid;
+    box-shadow: 0 0 3px var(--secondary-color);
     border-radius: 15px;
     display: block;
 }
@@ -139,7 +139,7 @@ ul {
     margin-top: 75px;
     margin-left: 25px;
     padding: 10px;
-    border: 1px var(--secondary-color) solid;
+    box-shadow: 0 0 3px var(--secondary-color);
     background-color: var(--main-bg);
     border-radius: 15px;
 }
