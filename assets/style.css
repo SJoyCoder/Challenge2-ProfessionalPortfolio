@@ -151,6 +151,10 @@ hr {
     margin-bottom: 50px;
 }
 
+#contact h2 {
+    margin-right: 15px;
+}
+
 @media screen and (max-width: 800px) {
     body {
         font-size: 75%;
