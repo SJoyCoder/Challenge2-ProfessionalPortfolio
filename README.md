@@ -2,7 +2,7 @@
 ## First from scratch project
 
 [Click Here For Finished Page](https://sjoycoder.github.io/Challenge2-ProfessionalPortfolio/)
-![webpage gif](./assets/Savannah%20McGinnis%20Portfolio.gif)
+![webpage gif](./assets/Savannah%20McGinnis%20Portfolio%20(1).gif)
 
 ## Who is this page for?
 This page is created for potential employers who, down the road, would like to see examples of my work.
