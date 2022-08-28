@@ -58,6 +58,7 @@ nav a {
 
 #profile-picture {
     width: 15%;
+    height: auto;
     margin: 20px;
     border-radius: 100px;
     box-shadow: 5px 5px 5px var(--secondary-color);
@@ -167,6 +168,10 @@ hr {
 @media screen and (max-width: 800px) {
     body {
         font-size: 75%;
+    }
+
+    #profile-picture {
+        height: auto;
     }
 
     #projects {
