@@ -20,7 +20,7 @@ header {
 }
 
 h1 {
-    font-size: 75px;
+    font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -87,18 +87,25 @@ article div {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    padding: 0px;
 }
 
 .smaller-projects {
     max-width: 25%;
     height: auto;
     padding: 50px;
+    border: 2px var(--secondary-color) solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 #showcase-project {
     width: 75%;
     height: auto;
     padding: 50px;
+    border: 1.5px var(--secondary-color) solid;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 #showcase-project:hover {
@@ -109,11 +116,6 @@ article div {
     box-shadow: 0px 0px 10px var(--secondary-color);
 }
 
-#projects div {
-    flex-flow: column wrap;
-    padding: 15px;
-}
-
 #projects img {
     max-width: 100%;
     height: auto;
@@ -121,6 +123,7 @@ article div {
 
 ul {
     list-style-type: none;
+    padding-inline-start: 0px;
 }
 
 #resume {
@@ -156,6 +159,6 @@ hr {
     #projects {
         flex-flow: column wrap;
         width: 100%;
-        margin: auto;
+        padding: 0;
     }
 }
