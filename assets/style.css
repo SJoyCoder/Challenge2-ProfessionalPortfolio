@@ -108,7 +108,7 @@ article div {
 #showcase-project {
     width: 70%;
     height: auto;
-    padding: 50px;
+    padding: 10px;
     border: 1.5px var(--secondary-color) solid;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -168,11 +168,6 @@ hr {
 @media screen and (max-width: 800px) {
     body {
         font-size: 75%;
-    }
-
-    #profile-picture {
-        width: 15%;
-        height: auto;
     }
 
     #projects {
