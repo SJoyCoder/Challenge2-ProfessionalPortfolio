@@ -1,5 +1,5 @@
 :root {
-    --main-bg: rgba(128, 128, 128, 0.207);
+    --main-bg: rgb(229, 226, 226);
     --secondary-color: rgba(52, 214, 203, 0.475); 
     --text-color: black;
 }
@@ -34,7 +34,7 @@ nav ul {
     list-style-type: none;
     background-color: var(--main-bg);
     margin: 0px;  
-    border: 3px black solid;
+    border: 1px black solid;
     border-radius: 50px;
 }
 
@@ -67,7 +67,6 @@ nav a {
 
 article {
     border: 5px var(--secondary-color) dotted;
-    background-color: var(--main-bg);
     width: 75%;
     margin: auto;
     margin-top: 30px;
