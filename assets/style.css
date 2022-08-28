@@ -149,24 +149,8 @@ hr {
 }
 
 @media screen and (max-width: 800px) {
-    h1 {
+    body {
         font-size: 75%;
-    }
-
-    h2 {
-        font-size: 75%;
-    }
-
-    h3 {
-        font-size: 75%;
-    }
-
-    nav a {
-        font-size: 75%;
-    }
-
-    #contact {
-        width: 75%;
     }
 
     #projects {
