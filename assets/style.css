@@ -101,6 +101,7 @@ article div {
     border: 5px var(--secondary-color) solid;
     border-radius: 20px;
     margin-bottom: 20px;
+    background-image: url(./59-blush-pink-8x10.jpg);
 }
 
 #showcase-project {
@@ -110,6 +111,7 @@ article div {
     border: 5px var(--secondary-color) solid;
     border-radius: 20px;
     margin-bottom: 30px;
+    background-image: url(./59-blush-pink-8x10.jpg);
 }
 
 #showcase-project:hover {
@@ -140,7 +142,7 @@ ul {
     margin-left: 25px;
     padding: 10px;
     box-shadow: 0 0 5px var(--secondary-color);
-    background-color: var(--main-bg);
+    background-image: url(./59-blush-pink-8x10.jpg);
     border-radius: 15px;
 }
 
