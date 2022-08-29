@@ -1,6 +1,5 @@
 :root {
-    --main-bg: rgba(244, 232, 238, 0.809);
-    --secondary-color: rgb(12, 91, 137); 
+    --accent-color: rgb(12, 91, 137); 
     --text-color: black;
 }
 
@@ -19,7 +18,7 @@ header {
     margin: 0;
     padding: 10px;
     display: block;
-    box-shadow: 0 0 5px var(--secondary-color);
+    box-shadow: 0 0 5px var(--accent-color);
     border-radius: 15px;
     display: block;
 }
@@ -27,7 +26,7 @@ header {
 h1 {
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--secondary-color);
+    color: var(--accent-color);
 }
 
 nav ul {
@@ -43,11 +42,11 @@ nav a {
     padding: 10px;
     display: block;
     justify-content: space-between;
-    color: var(--secondary-color);
+    color: var(--accent-color);
 }
 
 .button:hover {
-    text-shadow: 1px 1px 2px var(--secondary-color);
+    text-shadow: 1px 1px 2px var(--accent-color);
 }
 
 #about-me {
@@ -61,11 +60,11 @@ nav a {
     height: auto;
     margin: 20px;
     border-radius: 25px;
-    box-shadow: 5px 5px 5px var(--secondary-color);
+    box-shadow: 5px 5px 5px var(--accent-color);
 }
 
 article {
-    border: 5px var(--secondary-color) dotted;
+    border: 5px var(--accent-color) dotted;
     width: 75%;
     margin: auto;
     margin-top: 30px;
@@ -73,7 +72,7 @@ article {
 
 h2 {
     font-size: 200%;
-    color: var(--secondary-color);
+    color: var(--accent-color);
 }
 
 article div {
@@ -98,7 +97,7 @@ article div {
     max-width: 25%;
     height: auto;
     padding: 30px;
-    box-shadow: 0 0 5px var(--secondary-color);
+    box-shadow: 0 0 5px var(--accent-color);
     border-radius: 20px;
     background-image: url(./59-blush-pink-8x10.jpg);
 }
@@ -107,23 +106,23 @@ article div {
     width: 60%;
     height: auto;
     padding: 30px;
-    box-shadow: 0 0 5px var(--secondary-color);
+    box-shadow: 0 0 5px var(--accent-color);
     border-radius: 20px;
     background-image: url(./59-blush-pink-8x10.jpg);
 }
 
 #showcase-project:hover {
-    box-shadow: 0px 0px 15px var(--secondary-color);
+    box-shadow: 0px 0px 15px var(--accent-color);
 }
 
 .smaller-projects:hover {
-    box-shadow: 0px 0px 15px var(--secondary-color);
+    box-shadow: 0px 0px 15px var(--accent-color);
 }
 
 #projects img {
     max-width: 100%;
     height: auto;
-    box-shadow: 0 0 5px var(--secondary-color);
+    box-shadow: 0 0 5px var(--accent-color);
 }
 
 #projects li {
@@ -139,7 +138,7 @@ ul {
     margin-top: 75px;
     margin-left: 25px;
     padding: 10px;
-    box-shadow: 0 0 5px var(--secondary-color);
+    box-shadow: 0 0 5px var(--accent-color);
     background-image: url(./59-blush-pink-8x10.jpg);
     border-radius: 15px;
 }
@@ -154,7 +153,7 @@ ul {
 }
 
 hr {
-    border-color: var(--secondary-color);
+    border-color: var(--accent-color);
     border-width: 3px;
 }
 
