@@ -15,7 +15,6 @@ body {
 
 header {
     background-image: url(./59-blush-pink-8x10.jpg);
-    margin: 0;
     padding: 10px;
     display: block;
     box-shadow: 0 0 5px var(--accent-color);
