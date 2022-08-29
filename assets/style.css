@@ -91,26 +91,24 @@ article div {
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 0px;
-    margin-right: 30px;
+    margin: 50px;
 }
 
 .smaller-projects {
     max-width: 25%;
     height: auto;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 0 0 5px var(--secondary-color);
     border-radius: 20px;
-    margin-bottom: 20px;
     background-image: url(./59-blush-pink-8x10.jpg);
 }
 
 #showcase-project {
     width: 60%;
     height: auto;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0 0 5px var(--secondary-color);
     border-radius: 20px;
-    margin-bottom: 30px;
     background-image: url(./59-blush-pink-8x10.jpg);
 }
 
@@ -174,7 +172,7 @@ hr {
     margin-right: 15px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
     body {
         font-size: 75%;
     }
@@ -194,11 +192,12 @@ hr {
         padding: 0;
     }
 
-    #projects .showcase-project {
+    #showcase-project {
         max-width: 90%;
+        padding: 15px;
     }
 
-    #projects .smaller-projects {
+    .smaller-projects {
         padding: 15px;
         max-width: 50%;
     }
