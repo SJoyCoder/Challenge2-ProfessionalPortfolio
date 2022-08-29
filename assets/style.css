@@ -180,8 +180,12 @@ hr {
     }
 
     #profile-picture {
-        width: 25%;
+        width: 50%;
         height: auto;
+    }
+
+    #about-me div {
+        width: 100%;
     }
 
     #projects {
