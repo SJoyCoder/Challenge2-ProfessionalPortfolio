@@ -102,7 +102,7 @@ article div {
 }
 
 #showcase-project {
-    width: 60%;
+    width: 75%;
     height: auto;
     padding: 30px;
     box-shadow: 0 0 5px var(--accent-color);
