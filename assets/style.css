@@ -78,6 +78,10 @@ h2 {
     color: var(--accent-color);
 }
 
+h3 {
+    color: var(--accent-color);
+}
+
 article div {
     padding: 10px;
     width: 75%;
@@ -147,7 +151,7 @@ ul {
 }
 
 #resume a {
-    color: black;
+    color: var(--accent-color);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -168,6 +172,7 @@ hr {
     width: 50%;
     margin-top: 75px;
     margin-bottom: 50px;
+    color: var(--accent-color);
 }
 
 #contact h2 {
